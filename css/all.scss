@@ -48,20 +48,35 @@ nav{
     ul {
         list-style: none;
         li{
-            display:inline-block;
-            color:$grey;
-            margin:padding(1.6) padding(2);
+            display: inline-block;
+            color: $grey;
+            margin-right: padding(1);
             @extend %White;
             @extend %Uppercase;
+            width: padding(6);
+            height: padding(3);
+        }
+        li:nth-child(1){
+            padding: padding(1.6) padding(1.5) padding(2);
+        }
+        li:nth-child(2){
+            padding: padding(1.6) padding(1.5) padding(2);
+        }
+        li:nth-child(3){
+            padding: padding(1.6) padding(1.5) padding(2);
+        }
+        li:nth-child(4){
+            padding: padding(1.6) padding(5.5) padding(2) padding(1.5);
         }
         li:hover{
             @extend %White;
             cursor: pointer;
+            background: #3A91DC;
         }
     } 
 }
 header{
-    background-image: linear-gradient(to right, rgb(25, 32, 39),  rgba(75, 73, 73, 0)), url(./images/bg-1.jpg);
+    background-image: linear-gradient(to right, rgb(25, 32, 39),  rgba(75, 73, 73, 0)), url(../images/bg-1.jpg);
     height: 100vh;
     background-size: cover;
     overflow: hidden;
@@ -327,7 +342,7 @@ section{
     }
 }
 footer{
-        background-image: url(./images/bg-1.jpg);
+        background-image: url(../images/bg-1.jpg);
         height: 100vh;
         width: 100%;
         background-size: cover;
