@@ -61,7 +61,7 @@ nav{
     } 
 }
 header{
-    background-image: linear-gradient(to right, rgb(25, 32, 39),  rgba(75, 73, 73, 0)), url(/images/bg-1.jpg);
+    background-image: linear-gradient(to right, rgb(25, 32, 39),  rgba(75, 73, 73, 0)), url(./images/bg-1.jpg);
     height: 100vh;
     background-size: cover;
     overflow: hidden;
@@ -327,7 +327,7 @@ section{
     }
 }
 footer{
-        background-image: url(/images/bg-1.jpg);
+        background-image: url(./images/bg-1.jpg);
         height: 100vh;
         width: 100%;
         background-size: cover;
