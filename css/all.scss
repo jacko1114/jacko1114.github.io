@@ -55,6 +55,7 @@ nav{
             @extend %Uppercase;
             width: padding(6);
             height: padding(3);
+            transition: 0.2s;
         }
         li:nth-child(1){
             padding: padding(1.6) padding(1.5) padding(2);
@@ -71,7 +72,8 @@ nav{
         li:hover{
             @extend %White;
             cursor: pointer;
-            background: #3A91DC;
+            background: #393939;
+            border-bottom: solid padding(1/8) $white;
         }
     } 
 }
